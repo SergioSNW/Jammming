@@ -1,6 +1,8 @@
 import logo from './logo.svg';
-import './App.css';
+import '.App/App.css';
 
+//Additionally, make sure that your interface
+// has a "Save To Spotify" button and a "Search" button.
 function App() {
   return (
     <div className="App">
