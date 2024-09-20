@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
 
 //Additionally, make sure that your interface
 // has a "Save To Spotify" button and a "Search" button.
@@ -7,11 +7,11 @@ function App() {
   return (
     <div>
       <h1>
-        Ja<span className="highlight">mmm</span>ing
+        Ja<span className={styles.highlight}>mmm</span>ing
       </h1>
-      <div className="App">
+      <div className={styles.App}>
         {/* <SearchBar onSearch={search} /> */}
-        <div className="App-playlist">
+        <div className={styles['App-playlist']}>
           {/* <SearchResults searchResults={searchResults} onAdd={addTrack} />
           <Playlist
             playlistName={playlistName}
