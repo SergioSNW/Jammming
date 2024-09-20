@@ -1,21 +1,27 @@
+import React from 'react';
 import './App.css';
 
 //Additionally, make sure that your interface
 // has a "Save To Spotify" button and a "Search" button.
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello Codecademy!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>
+        Ja<span className="highlight">mmm</span>ing
+      </h1>
+      <div className="App">
+        {/* <SearchBar onSearch={search} /> */}
+        <div className="App-playlist">
+          {/* <SearchResults searchResults={searchResults} onAdd={addTrack} />
+          <Playlist
+            playlistName={playlistName}
+            playlistTracks={playlistTracks}
+            onNameChange={updatePlaylistName}
+            onRemove={removeTrack}
+            onSave={savePlaylist}
+          /> */}
+        </div>
+      </div>
     </div>
   );
 }
